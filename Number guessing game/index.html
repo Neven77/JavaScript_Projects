@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/JunusErgin/fast-ui/style.css"> 
+    <!-- Externe CSS-Datei einbinden für das Layout -->
+</head>
+<body>
+    <header>Number Guessing Game</header>
+    <div class="container">
+        <h1 id="headline">Bitte rate die Zahl</h1>
+        <h2 id="displayTries">Versuche: 0</h2>
+        <!-- Anzeige der aktuellen Versuche, die ID muss mit der ID im JavaScript-Code übereinstimmen -->
+        <form onsubmit="guessTheNumber(); return false;">
+            <!-- Formular zum Raten, das beim Absenden die Funktion guessTheNumber aufruft -->
+            <input id="myNumber" type="number" required placeholder="Bitte Zahl eingeben...">
+            <!-- Eingabefeld für die Zahl, die geraten werden soll -->
+            <button>Raten!</button> <!-- Button zum Absenden des Formulars -->
+        </form>
+    </div>
+
+    <script src="script.js"></script> <!-- JavaScript-Datei verlinken -->
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script> 
+    <!-- Bibliothek für Konfetti-Effekt einbinden -->
+</body>
+</html>
