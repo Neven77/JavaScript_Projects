@@ -1,11 +1,20 @@
-# JavaScript Projects
+# Tutorial Projects
 
-Dieses Repository enthält meine persönlichen Übungsprojekte, die ich mit JavaScript erstelle. Es ist ein Sammelort für kleine, experimentelle Projekte, um JavaScript-Konzepte zu lernen und anzuwenden. 
+Dieses Repository enthält meine persönlichen Übungsprojekte, die ich mit Verschiedenen Tutorials erstelle. Es ist ein Sammelort für kleine, experimentelle Projekte, um Programmier-Konzepte zu lernen und anzuwenden. 
 
 ## Projekte
 
+### JavaScript-Projekte
 1. **Number Guessing Game**  
    Ein einfaches Ratespiel, bei dem der Benutzer eine Zufallszahl zwischen 0 und 100 erraten muss.
+
+### Python Projekte
+
+1.
+
+### Data-Analysis Projekte
+
+1. 
 
 ## Zweck
 
